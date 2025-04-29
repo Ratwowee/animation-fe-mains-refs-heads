@@ -22,12 +22,12 @@ local OrionLib = {
 		},
 
 		rat = {
-			Main =  Color = Color3.fromRGB(102, 0, 102), 
-			Second =  Color = Color3.fromRGB(102, 0, 102), 
-			Stroke =  Color = Color3.fromRGB(102, 0, 102), 
-			Divider = Color3.fromRGB(80, 120, 200), 
-			Text = Color3.fromRGB(180, 220, 255), -- 
-			TextDark = Color3.fromRGB(150, 180, 230) 
+			Main =  Color = Color3.fromRGB(102, 0, 102),
+			Second =  Color = Color3.fromRGB(102, 0, 102),
+			Stroke =  Color = Color3.fromRGB(102, 0, 102),
+			Divider = Color3.fromRGB(80, 120, 200), -- Azul bebê mais escuro para divisores
+			Text = Color3.fromRGB(180, 220, 255), -- Azul bebê claro para textos
+			TextDark = Color3.fromRGB(150, 180, 230) -- Azul bebê amarelado para texto secundário
 		}
 	},
 	SelectedTheme = "rat",
@@ -61,7 +61,7 @@ local Modal = Instance.new("TextButton")
 
 local FocusDrag = nil
 
-Orion.Name = "OrionRat"
+Orion.Name = "Orion"
 
 getgenv().gethui = function() return game.CoreGui end
 
