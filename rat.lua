@@ -1,5 +1,4 @@
 --This is a gui with fe animations if u don't know how to use then ur a dumbass it's open source
--- This is rlly old probly broken
 
 local plr = game:GetService("Players").LocalPlayer
 local humanoid = plr.Character:WaitForChild("Humanoid")
